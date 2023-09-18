@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{ font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.header-nav{
+    background-color: black;
+    width: 100%;
+    padding: 4%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-nav ul {
+    display: flex;
+  }
+  
+  .header-nav ul li {
+    padding: 15px;
+  }
+  
+  .header-nav ul li a {
+    padding: 10px;
+  }
+  
+  .header-nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .header-nav ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;  
+  }
+  
+  hr {
+    margin: 10px 0;
+  }
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+  
+  ul {
+    list-style: none;
+  }
+
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.box-titles{
+    background-color: black;
+    padding: 10px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.footer-nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-footer{
+    color: white;
+    padding: 10px;
+}
+
+.p-footer{
+    color: white;
+    padding: 2px;
+}
+
+.menu-footer{
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .menu-footer ul li {
+    padding: 7px;
+  }
+  
+  .menu-footer ul li a {
+    padding: 7px;
+  }
+  
+  .menu-footer ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
+  .fieldset{
+    max-width: 500px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .forms{
+    align-items: left;
+  }
+
+  h4{
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .form-map{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
